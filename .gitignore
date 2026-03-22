@@ -1,0 +1,50 @@
+# Local authoring aids
+.cursor/
+AGENTS.md
+GIT_COMMIT_RULES.md
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Build and packaging
+build/
+dist/
+*.egg-info/
+
+# Generated outputs and logs
+cache/
+logs/
+outputs/
+tmp/
+temp/
+mt5-predict_beam5/
+predict*.jsonl
+.lock
+
+# Downloaded checkpoints and archives
+mt5-small/
+mt5-small.zip
+*.bin
+*.safetensors
+checkpoint-*/
+*.zip
+
+# Secrets and local config
+.env
+*.key
+*.pem
+
+# OS and editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
