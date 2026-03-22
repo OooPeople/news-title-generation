@@ -139,9 +139,9 @@ For this public demo, `sample_test.jsonl` is aligned with `public_sample.jsonl`:
 
 <!-- bilingual split -->
 
-甇方?祆?嗉?雿平鞈??詨? schema ??JSONL 瑼?頛詨? `id` ????`title` ??prediction JSONL??
+此腳本預期輸入為與作業資料格式相容的 JSONL 檔案，並輸出包含 `id` 與模型生成 `title` 的 prediction JSONL 檔。
 
-這份公開版 demo 中，`sample_test.jsonl` 與 `public_sample.jsonl` 使用相同的三筆文章 id；差別只在於 `sample_test.jsonl` 移除了標準答案 `title` 欄位，方便直接接上推論與評估流程。
+在這份公開版 demo 中，`sample_test.jsonl` 與 `public_sample.jsonl` 使用相同的三筆文章 id；差別只在於 `sample_test.jsonl` 移除了標準答案 `title` 欄位，方便直接接上推論與評估流程。
 
 ### Evaluate Predictions / 評估預測結果
 
